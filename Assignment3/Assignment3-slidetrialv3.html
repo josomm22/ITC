@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quizzzzz</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style-slider.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="view py-sm-2">
+    <section class="intro border rounded container">
+        
+        <div class="row pb-md-3">
+            <div class="col-12" id="intro-header">
+            </div>
+        </div>
+        <div class="row border-bottom mb-1 top-section">
+            <div class="col-6">
+                <div class="dot" id="dot0" active></div>
+                <div class="dot" id="dot1"></div>
+                <div class="dot" id="dot2"></div>
+                <div class="dot" id="dot3"></div>
+                <div class="dot" id="dot4"></div>
+                <div class="dot" id="dot5"></div>
+                <div class="dot" id="dot6"></div>
+            </div>
+            <div class="col-6 text-right" id="current-Page">
+            </div>
+        </div>
+        <!-- Start of Carousel -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active" id="slideA">
+                        <div class="row">
+                                <div class="col text-center" aria-hidden="true"><img src="./img/banners/sexappliances.jpg" alt="" class="img-fluid fridge"></div>
+                            </div>
+                            <div class="row py-1">
+                                <div class="col-12">
+                                    <p id="title-slideA"></p>
+                                </div>
+                            </div>
+                    <!-- Question 1 -->
+                </div>
+                <div class="carousel-item" id="slideB">
+                        <div class="row">
+                                <div class="col text-center" aria-hidden="true"><img src="./img/banners/sexappliances.jpg" alt="" class="img-fluid fridge"></div>
+                            </div>
+                            <div class="row py-1">
+                                <div class="col-12">
+                                    <p id="title-slideB"></p>
+                                </div>
+                            </div>
+
+                    <!-- Question 2-->
+                </div>
+
+        <div class="row py-2 border-top bottom-section">
+            <div class="col-12">
+                <button type="submit" class="btn btn-outline-primary float-right" id="intro-btn"></button>
+            </div>
+        </div>
+    </section>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="./js/scriptv3.js"></script>
+
+</body>
+
+</html>

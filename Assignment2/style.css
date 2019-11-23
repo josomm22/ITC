@@ -1,0 +1,207 @@
+/* 
+
+.jumbotron{
+    color: white;
+    height: 90vh;
+    background-image: url(https://media.istockphoto.com/photos/young-female-vlogger-editing-her-vlog-on-computer-picture-id667993996);
+    background-repeat: no-repeat;
+    background-size: 100vw 110vh;
+}
+.navbar img{
+    height: 40px;
+}
+.test{
+    height: 500px;
+}
+.orange{
+    height: 500px;
+
+    background-color: #ff6a00;
+}
+.red{
+    height: 500px;
+}
+.box{
+    border: 1px solid black;
+    height: 100%;
+    background-color: red;
+
+}
+.vlog{
+    background-image: url(https://media.istockphoto.com/photos/female-vlogger-making-social-media-video-about-fashion-shoes-for-the-picture-id844230230);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.twoleft{
+    display: flex;
+    vertical-align: bottom
+    
+}
+.content-box{
+    height: 50%;
+    width: 50%;
+    background-color: white;
+} */
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.navbar img{
+    height: 40px;
+}
+.nav-link{
+    color: black!important;
+    font-family: 'Pacifico', cursive;
+
+
+}
+.nav-link:hover{
+    font-weight: bold;
+    color: #FF813F!important;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,221,0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+}
+/* div.bg{
+    background: url("./content-creator.PNG") no-repeat center center;
+
+}
+div.masthead {
+    position: relative;
+    background-color: white;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.38);
+
+} */
+
+header.masthead {
+    position: relative;
+    background-color: white;
+    background: url("./content-creator.PNG") no-repeat center center;
+    /* background-size: cover; */
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.38);
+
+}
+
+header.masthead .overlay {
+position: absolute;
+height: 100%;
+width: 100%;
+top: 0;
+left: 0;
+opacity: 0.3;
+}
+
+header.masthead h1 {
+font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+header.masthead h1 {
+    font-size: 3rem;
+}
+}
+.masthead-signup{
+    justify-content: center;
+}
+.steps.row.d-flex{
+    justify-content: space-between;
+}
+.tagline{
+    color: black;
+}
+.features-icons {
+padding-top: 5rem;
+padding-bottom: 5rem;
+box-shadow: inset 0px -2px 5px 0px rgba(0,0,0,0.38);
+
+
+}
+.features-icons h3,p{
+font-family: 'Pacifico', cursive;
+}
+.features-icons h3{
+    color: #FF813F;
+
+}
+
+.features-icons .features-icons-item {
+max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+height: 4rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+
+font-size: 4.5rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+font-size: 5rem;
+}
+.feat{
+box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.38);
+
+}
+.advantages{
+    display: flex;
+    justify-content: center;
+
+}
+.adv-container{
+    padding: 20px;
+    font-size: 20px;
+    height: 40vh;
+
+
+}
+.adv-list{
+    padding: 0;
+    list-style: none;
+
+
+}
+.adv-list span{
+    margin-left:5px;
+    font-weight: bold;
+
+}
+.card-img-bottom{
+    color: #fff;
+  height: 20rem;
+  background: url("./content-creator.PNG") center no-repeat;
+  background-size: cover;
+}
+.adv-side-left, .adv-side-right{
+    color: #fff;
+    height: 23rem;
+    background-size: contain;
+
+}
+.adv-side-left{
+    background: url("./tweets-left.PNG") center no-repeat;
+}
+.adv-side-right{
+    background: url("./tweets-right.PNG") center no-repeat;
+}
+.adv-side-left, .adv-side-right{
+    color: #fff;
+    height: 23rem;
+    background-size: contain;
+
+}
+@media screen and (max-width:768px){
+    .adv-side-left, .adv-side-right{
+        display: none;
+    }
+}

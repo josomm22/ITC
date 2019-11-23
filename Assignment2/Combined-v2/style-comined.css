@@ -1,0 +1,239 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.navbar img{
+    height: 40px;
+}
+.nav-link{
+    color: black!important;
+    font-family: 'Pacifico', cursive;
+
+
+}
+.nav-link:hover{
+    font-weight: bold;
+    color: #FF813F!important;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,221,0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+}
+header.masthead {
+    position: relative;
+    background-color: rgba(255,255,255,0.38);
+    background: url("./content-creator.PNG") no-repeat center center;
+    background-size: cover; 
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.38);
+
+}
+
+header.masthead .overlay {
+position: absolute;
+height: 100%;
+width: 100%;
+top: 0;
+left: 0;
+opacity: 0.3;
+}
+
+header.masthead h1 {
+font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+header.masthead h1 {
+    font-size: 3rem;
+}
+}
+.masthead-signup{
+    justify-content: center;
+}
+.steps.row.d-flex{
+    justify-content: space-between;
+}
+.tagline{
+    background-color: rgba(255,255,255,0.68);
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+.features-icons {
+padding-top: 5rem;
+padding-bottom: 5rem;
+box-shadow: inset 0px -2px 5px 0px rgba(0,0,0,0.38);
+
+
+}
+.features-icons h3,p{
+font-family: 'Pacifico', cursive;
+}
+.features-icons h3{
+    color: #FF813F;
+
+}
+
+.features-icons .features-icons-item {
+max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+height: 4rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+
+font-size: 4.5rem;
+}
+
+.feat{
+box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.38);
+
+}
+.advantages{
+    display: flex;
+    justify-content: center;
+    background-color: #ff813f;
+
+
+}
+.adv-container{
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.38);
+
+
+
+}
+.adv-list{
+    padding: 0;
+    list-style: none;
+}
+.adv-list li{
+    line-height: 2;
+    
+}
+.adv-list span{
+    margin-left:5px;
+    font-weight: bold;
+
+}
+
+.adv-side-left, .adv-side-right{
+    color: #fff;
+    height: 23rem;
+    background-size: contain;
+
+}
+.adv-side-left{
+    background: url("./tweets-left.PNG") center no-repeat;
+}
+.adv-side-right{
+    background: url("./tweets-right.PNG") center no-repeat;
+}
+.adv-side-left, .adv-side-right{
+    color: #fff;
+    height: 23rem;
+    background-size: contain;
+
+}
+@media screen and (max-width:768px){
+    .adv-side-left, .adv-side-right{
+        display: none;
+    }
+    .box-content{
+        box-shadow: 0;
+    }
+}
+.showcase .showcase-img{
+    border:1px solid black
+}
+
+
+.youtube-vlogger-title{
+    text-align: center;
+    padding:5px; 
+    color: #FF813F;
+}
+.testimonials .testimonial-item img {
+    max-width: 7rem;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+.showcase .showcase-img{
+    border:none; 
+    min-height: 24rem
+}
+.examples{
+    justify-content: center;
+    align-items: center;
+}
+.box-content{
+    box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.38);
+}
+.footer{
+    flex-direction: column;
+}
+.footer-logo img{
+    width: 40px;
+}
+.footer-bottom{
+    padding-top: 5px;
+    border-top: 1px solid gray;
+}
+@media screen and (max-width:768px){
+    .adv-side-left, .adv-side-right{
+        display: none;
+    }
+    .box-content{
+        box-shadow: none;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+    }
+    
+}
+
+@media screen and (max-width:1155px){
+    .adv-container{
+        box-shadow: none;
+
+    }
+}
+
+
+@media (min-width: 768px){
+.col-md-4 { 
+
+    max-width: 100%;
+    flex: 0 0 60.333333%;
+}
+}
+
+.title-border{
+    border: 4px solid black;
+}
+
+.creators-header{
+    padding-top:2%; 
+}
+
+.features-icons .features-icons-item .features-icons-icon i{
+    font-size: 6vh;
+    margin-top: 2%;
+    margin-bottom: 2px;
+    flex: 1;
+    
+}
+.btn{
+    background-color: #ff813f;
+    border: 1px solid #ff813f;
+}
+
+

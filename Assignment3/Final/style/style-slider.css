@@ -1,0 +1,99 @@
+body{
+    font-family: 'Lato', sans-serif;
+
+}
+.view{
+    height: 100vh;
+    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/91.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+}
+.container{
+    width: 75vw;
+    background-color: #f8f9fa!important;
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: linear-gradient(to right, cornflowerblue 50%, gray 50%);
+    background-size: 200% 100%;
+    background-position:right bottom;
+    transition: all 1s ease;
+}
+.dota{
+    background-position:left bottom;
+
+}
+.top-section{
+    box-shadow: 0px 4px 5px -6px rgba(0,0,0,0.75);
+
+}
+.bottom-section{
+    box-shadow: 0px -3px 5px -5px rgba(0,0,0,0.75);
+}
+.carousel{
+    height: 80%;
+}
+.carousel-item{
+    min-height: 70vh;
+}
+.intro p{
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.5;
+}
+.fridge{
+    height: 30vh;
+}
+.hidden{
+    display: none;
+}
+
+.form-check p{
+    text-align: center;
+    margin-bottom: 0;
+}
+.text-box{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255,255,255,0.65);
+}
+.imageQ [type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+.answer-row{
+    min-height: 34vh;
+}
+  
+  /* IMAGE STYLES */
+.imageQ  [type=radio] + img {
+    cursor: pointer;
+  }
+  
+  /* CHECKED STYLES */
+.imageQ [type=radio]:checked + img {
+    outline: 2px solid #f00;
+  }
+
+@media only screen and (max-width : 568px){
+    .container{
+        height: 100vh;
+    }
+    .dot{
+        height: 10px;
+        width: 10px;
+    }
+    .fridge{
+        height: 20vh;
+    }
+    .carousel-item{
+        min-height: 87vh;
+    }
+}

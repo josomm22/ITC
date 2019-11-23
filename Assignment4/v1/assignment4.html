@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="tools">
+            <div class="colors">
+                <div class="colors-row">
+                    <div class="color black" id="black"></div>
+                    <div class="color red" id="red"></div>
+                </div>
+                <div class="colors-row">
+                    <div class="color blue" id="blue"></div>
+                    <div class="color green" id="green"></div>
+                </div>
+                <div class="colors-row">
+                    <div class="custom-color">
+                        <input class="jscolor">
+                    </div>
+                </div>
+                <div class="colors-row">
+                    <div class="custom-color">
+                      <button class="jscolor">Custom color
+                      </button>
+                    </div>
+                </div>
+                <div class="colors-row">
+                    <div class="eraser" id="white">
+                        <p>Eraser</p>
+                    </div>
+                </div>
+                <div class="colors-row">
+                    <div class="brush-size" id="square0">
+                        <div class="brush square0 black"></div>
+                    </div>
+                    <div class="brush-size" id="square1">
+                        <div class="brush square1 black"></div>
+                    </div>
+                    <div class="brush-size" id="square2">
+                        <div class="brush square2 black"></div>
+                    </div>
+                    <div class="brush-size" id="square3">
+                        <div class="brush square3 black"></div>
+                    </div>
+                    <div class="brush-size" id="square4">
+                        <div class="brush square4 black"></div>
+                    </div>
+                    <div class="brush-size" id="square5">
+                        <div class="brush square5 black"></div>
+                    </div>
+                </div>
+                <div class="colors-row">
+                    <div class="brush-size" id="circle0">
+                        <div class="brush circle0 black"></div>
+                    </div>
+                    <div class="brush-size" id="circle1">
+                        <div class="brush circle1 black"></div>
+                    </div>
+                    <div class="brush-size" id="circle2">
+                        <div class="brush circle2 black"></div>
+                    </div>
+                    <div class="brush-size" id="circle3">
+                        <div class="brush circle3 black"></div>
+                    </div>
+                    <div class="brush-size" id="circle4">
+                        <div class="brush circle4 black"></div>
+                    </div>
+                    <div class="brush-size" id="circle5">
+                        <div class="brush circle5 black"></div>
+                    </div>
+                </div>
+                <div class="colors-row">
+                    <div class="clear-all" id="clear">Clear All</div>
+                </div>
+                <div class="colors-row">
+                        <input type="range" name="points" min="100" max="900" value="400">
+
+                </div>
+            </div>
+        </div>
+        <div class="main-wrapper">
+            <div class="paint-area">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jscolor/2.0.4/jscolor.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
