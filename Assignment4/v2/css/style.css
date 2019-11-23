@@ -67,6 +67,7 @@ body{
 }
 .white{
     background-color: white;
+    color: white;
 }
 .circle{
     border-radius: 50%;
